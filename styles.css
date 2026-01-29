@@ -648,16 +648,13 @@ select {
 
   .nav {
     width: 100%;
-    overflow-x: auto;
-    padding-bottom: 6px;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
+    flex-wrap: wrap;
+    gap: 8px 16px;
   }
 
   .nav__link {
-    flex: 0 0 auto;
+    flex: 1 1 auto;
     white-space: nowrap;
-    scroll-snap-align: start;
   }
 
   .section {
@@ -675,3 +672,4 @@ select {
     gap: 12px;
   }
 }
+
