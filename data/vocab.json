@@ -1,0 +1,4276 @@
+{
+  "cards": [
+    {
+      "id": "daily-1",
+      "level": "daily",
+      "category": "Daily coordination",
+      "jp": "今日の打ち合わせは予定通り行います。",
+      "en": "The meeting will go ahead as scheduled today.",
+      "hint": "go ahead as scheduled"
+    },
+    {
+      "id": "daily-2",
+      "level": "daily",
+      "category": "Follow-up",
+      "jp": "資料は後ほど共有します。",
+      "en": "I will share the materials shortly.",
+      "hint": "share the materials shortly"
+    },
+    {
+      "id": "daily-3",
+      "level": "daily",
+      "category": "Schedule update",
+      "jp": "少し遅れますが必ず参加します。",
+      "en": "I'll be a few minutes late, but I will join for sure.",
+      "hint": "a few minutes late"
+    },
+    {
+      "id": "daily-4",
+      "level": "daily",
+      "category": "Discussion setup",
+      "jp": "要点を先に確認しましょう。",
+      "en": "Let's confirm the key points first.",
+      "hint": "confirm the key points"
+    },
+    {
+      "id": "daily-5",
+      "level": "daily",
+      "category": "Casual follow-up",
+      "jp": "あとで詳細をチャットします。",
+      "en": "I'll message you the details later.",
+      "hint": "message you the details"
+    },
+    {
+      "id": "daily-6",
+      "level": "daily",
+      "category": "Ownership",
+      "jp": "この件は私が引き継ぎます。",
+      "en": "I'll take over this item.",
+      "hint": "take over this item"
+    },
+    {
+      "id": "daily-7",
+      "level": "daily",
+      "category": "Status update",
+      "jp": "今の進捗を簡単に共有します。",
+      "en": "I'll give a quick update on the progress.",
+      "hint": "quick update"
+    },
+    {
+      "id": "daily-8",
+      "level": "daily",
+      "category": "Alignment",
+      "jp": "認識が合っているか確認させてください。",
+      "en": "Let me confirm we're aligned.",
+      "hint": "confirm we're aligned"
+    },
+    {
+      "id": "daily-9",
+      "level": "daily",
+      "category": "Planning",
+      "jp": "次のステップを整理しましょう。",
+      "en": "Let's organize the next steps.",
+      "hint": "organize the next steps"
+    },
+    {
+      "id": "daily-10",
+      "level": "daily",
+      "category": "Agenda management",
+      "jp": "その点は後で掘り下げます。",
+      "en": "We'll dive into that point later.",
+      "hint": "dive into that point"
+    },
+    {
+      "id": "daily-11",
+      "level": "daily",
+      "category": "Meeting - action items",
+      "jp": "アクションアイテムを整理して共有します。",
+      "en": "I'll consolidate the action items and share them.",
+      "hint": "consolidate the action items"
+    },
+    {
+      "id": "daily-12",
+      "level": "daily",
+      "category": "Meeting - follow-up",
+      "jp": "合意した内容を議事録に反映します。",
+      "en": "I'll reflect the agreed points in the minutes.",
+      "hint": "reflect the agreed points"
+    },
+    {
+      "id": "daily-13",
+      "level": "daily",
+      "category": "Meeting - wrap-up",
+      "jp": "今日の決定事項だけ確認しましょう。",
+      "en": "Let's just confirm today's decisions.",
+      "hint": "confirm today's decisions"
+    },
+    {
+      "id": "daily-14",
+      "level": "daily",
+      "category": "Meeting - scope control",
+      "jp": "この話題は別枠で時間を取りましょう。",
+      "en": "Let's schedule a separate slot for this topic.",
+      "hint": "separate slot"
+    },
+    {
+      "id": "daily-15",
+      "level": "daily",
+      "category": "Meeting - time management",
+      "jp": "時間が限られているので要点に絞ります。",
+      "en": "Given the time, let's focus on the essentials.",
+      "hint": "focus on the essentials"
+    },
+    {
+      "id": "daily-16",
+      "level": "daily",
+      "category": "Clarification",
+      "jp": "今の理解で合っていますか？",
+      "en": "Is my understanding correct?",
+      "hint": "understanding correct"
+    },
+    {
+      "id": "daily-17",
+      "level": "daily",
+      "category": "Meeting - alignment",
+      "jp": "この前提を共有して進めたいです。",
+      "en": "I'd like to move forward with this assumption.",
+      "hint": "move forward with this assumption"
+    },
+    {
+      "id": "daily-18",
+      "level": "daily",
+      "category": "Follow-up",
+      "jp": "関係者に今日中に共有します。",
+      "en": "I'll brief the stakeholders by end of day.",
+      "hint": "by end of day"
+    },
+    {
+      "id": "daily-19",
+      "level": "daily",
+      "category": "Planning",
+      "jp": "要件の優先度を再確認しましょう。",
+      "en": "Let's recheck the priority of the requirements.",
+      "hint": "priority of the requirements"
+    },
+    {
+      "id": "daily-20",
+      "level": "daily",
+      "category": "Action item",
+      "jp": "この点は次回までに確認します。",
+      "en": "I'll validate this point before the next meeting.",
+      "hint": "validate this point"
+    },
+    {
+      "id": "daily-21",
+      "level": "daily",
+      "category": "Clarification",
+      "jp": "こちらの意図が伝わっているか確認したいです。",
+      "en": "I want to make sure my intent is clear.",
+      "hint": "intent is clear"
+    },
+    {
+      "id": "daily-22",
+      "level": "daily",
+      "category": "Meeting - materials",
+      "jp": "この資料は最新版ですか？",
+      "en": "Is this the latest version of the deck?",
+      "hint": "latest version"
+    },
+    {
+      "id": "daily-23",
+      "level": "daily",
+      "category": "Escalation",
+      "jp": "この判断は私の権限外です。",
+      "en": "This decision is outside my scope.",
+      "hint": "outside my scope"
+    },
+    {
+      "id": "daily-24",
+      "level": "daily",
+      "category": "Meeting - wrap-up",
+      "jp": "本日はここまでにしましょう。",
+      "en": "Let's wrap here for today.",
+      "hint": "wrap here"
+    },
+    {
+      "id": "daily-25",
+      "level": "daily",
+      "category": "Follow-up",
+      "jp": "次の打ち合わせまでに整理します。",
+      "en": "I'll organize this before our next session.",
+      "hint": "organize this"
+    },
+    {
+      "id": "daily-26",
+      "level": "daily",
+      "category": "Coordination",
+      "jp": "該当部署の意見も確認しておきます。",
+      "en": "I'll check with the relevant team as well.",
+      "hint": "relevant team"
+    },
+    {
+      "id": "daily-27",
+      "level": "daily",
+      "category": "Clarification",
+      "jp": "念のため、ポイントを再共有します。",
+      "en": "Just to be safe, I'll restate the key points.",
+      "hint": "restate the key points"
+    },
+    {
+      "id": "daily-28",
+      "level": "daily",
+      "category": "Team alignment",
+      "jp": "チーム内で一度認識合わせします。",
+      "en": "We'll align internally first.",
+      "hint": "align internally"
+    },
+    {
+      "id": "daily-29",
+      "level": "daily",
+      "category": "Drafting",
+      "jp": "こちらで一次案を作って共有します。",
+      "en": "I'll draft the first version and share it.",
+      "hint": "draft the first version"
+    },
+    {
+      "id": "daily-30",
+      "level": "daily",
+      "category": "Schedule risk",
+      "jp": "期限に影響が出ないか確認しています。",
+      "en": "I'm checking whether this impacts the deadline.",
+      "hint": "impacts the deadline"
+    },
+    {
+      "id": "daily-31",
+      "level": "daily",
+      "category": "Scope control",
+      "jp": "ここはスコープ外として整理します。",
+      "en": "Let's treat this as out of scope for now.",
+      "hint": "out of scope"
+    },
+    {
+      "id": "daily-32",
+      "level": "daily",
+      "category": "Clarification",
+      "jp": "前提が変わったので再度確認します。",
+      "en": "The assumptions changed, so I'll reconfirm.",
+      "hint": "assumptions changed"
+    },
+    {
+      "id": "daily-33",
+      "level": "daily",
+      "category": "Estimation",
+      "jp": "見積もりの根拠を共有いただけますか。",
+      "en": "Could you share the basis for the estimate?",
+      "hint": "basis for the estimate"
+    },
+    {
+      "id": "daily-34",
+      "level": "daily",
+      "category": "Meeting - focus",
+      "jp": "本日の議題に戻しましょう。",
+      "en": "Let's come back to today's agenda.",
+      "hint": "come back to the agenda"
+    },
+    {
+      "id": "daily-35",
+      "level": "daily",
+      "category": "Meeting - minutes",
+      "jp": "議事録のドラフトを送ります。",
+      "en": "I'll send a draft of the minutes.",
+      "hint": "draft of the minutes"
+    },
+    {
+      "id": "daily-36",
+      "level": "daily",
+      "category": "Decision",
+      "jp": "今回の判断は暫定です。",
+      "en": "This is a tentative decision.",
+      "hint": "tentative decision"
+    },
+    {
+      "id": "daily-37",
+      "level": "daily",
+      "category": "Risk communication",
+      "jp": "念のためリスクを先に共有します。",
+      "en": "I'll flag the risks upfront.",
+      "hint": "flag the risks"
+    },
+    {
+      "id": "daily-38",
+      "level": "daily",
+      "category": "Ownership",
+      "jp": "このタスクは私がオーナーです。",
+      "en": "I'm the owner of this task.",
+      "hint": "owner of this task"
+    },
+    {
+      "id": "daily-39",
+      "level": "daily",
+      "category": "Confirmation",
+      "jp": "こちらの提案で進めて問題ないですか？",
+      "en": "Is it okay to proceed with this proposal?",
+      "hint": "proceed with this proposal"
+    },
+    {
+      "id": "daily-40",
+      "level": "daily",
+      "category": "Follow-up",
+      "jp": "仕様が確定次第連絡します。",
+      "en": "I'll inform you once the specs are finalized.",
+      "hint": "specs are finalized"
+    },
+    {
+      "id": "daily-41",
+      "level": "daily",
+      "category": "Planning",
+      "jp": "現時点ではこの方向で進めます。",
+      "en": "For now, we'll proceed with this direction.",
+      "hint": "proceed with this direction"
+    },
+    {
+      "id": "daily-42",
+      "level": "daily",
+      "category": "Planning",
+      "jp": "後ほど優先度を整理します。",
+      "en": "I'll sort the priorities later.",
+      "hint": "sort the priorities"
+    },
+    {
+      "id": "daily-43",
+      "level": "daily",
+      "category": "Follow-up",
+      "jp": "次の会議までに案をまとめます。",
+      "en": "I'll consolidate the proposal before the next meeting.",
+      "hint": "consolidate the proposal"
+    },
+    {
+      "id": "daily-44",
+      "level": "daily",
+      "category": "Clarification",
+      "jp": "この点は追加の確認が必要です。",
+      "en": "We need additional validation on this point.",
+      "hint": "additional validation"
+    },
+    {
+      "id": "daily-45",
+      "level": "daily",
+      "category": "Timeline",
+      "jp": "今週中に結論を出す予定です。",
+      "en": "We're aiming to reach a conclusion this week.",
+      "hint": "reach a conclusion"
+    },
+    {
+      "id": "daily-46",
+      "level": "daily",
+      "category": "Risk communication",
+      "jp": "前提が崩れる場合はすぐ共有します。",
+      "en": "I'll let you know immediately if the assumptions break.",
+      "hint": "assumptions break"
+    },
+    {
+      "id": "daily-47",
+      "level": "daily",
+      "category": "Meeting - parking lot",
+      "jp": "この点は未確定なので保留にします。",
+      "en": "This is still open, so we'll park it for now.",
+      "hint": "park it"
+    },
+    {
+      "id": "daily-48",
+      "level": "daily",
+      "category": "Meeting - agenda",
+      "jp": "次回は結論ベースで話したいです。",
+      "en": "Next time I'd like to focus on decisions.",
+      "hint": "focus on decisions"
+    },
+    {
+      "id": "daily-49",
+      "level": "daily",
+      "category": "Communication hygiene",
+      "jp": "この資料は共有範囲に注意してください。",
+      "en": "Please be mindful of the distribution list for this deck.",
+      "hint": "distribution list"
+    },
+    {
+      "id": "daily-50",
+      "level": "daily",
+      "category": "Email - FYI",
+      "jp": "こちらは参考情報として共有します。",
+      "en": "Sharing this as reference only.",
+      "hint": "as reference only"
+    },
+    {
+      "id": "daily-51",
+      "level": "daily",
+      "category": "Scheduling",
+      "jp": "関係者の空きを確認して調整します。",
+      "en": "I'll check availability and coordinate with stakeholders.",
+      "hint": "check availability"
+    },
+    {
+      "id": "daily-52",
+      "level": "daily",
+      "category": "Confirmation",
+      "jp": "こちらの認識で問題なければ進めます。",
+      "en": "If this understanding is correct, we'll proceed.",
+      "hint": "if this understanding is correct"
+    },
+    {
+      "id": "daily-53",
+      "level": "daily",
+      "category": "Priority",
+      "jp": "この依頼は優先度が高いです。",
+      "en": "This request is high priority.",
+      "hint": "high priority"
+    },
+    {
+      "id": "daily-54",
+      "level": "daily",
+      "category": "Clarification",
+      "jp": "次のステップに入る前に確認したい点があります。",
+      "en": "Before moving on, I have a few checks.",
+      "hint": "before moving on"
+    },
+    {
+      "id": "daily-55",
+      "level": "daily",
+      "category": "Coordination",
+      "jp": "関連チームへ共有済みです。",
+      "en": "I've already looped in the relevant teams.",
+      "hint": "looped in"
+    },
+    {
+      "id": "daily-56",
+      "level": "daily",
+      "category": "Meeting - wrap-up",
+      "jp": "こちらで合意した内容をまとめます。",
+      "en": "I'll summarize what we agreed on.",
+      "hint": "summarize what we agreed on"
+    },
+    {
+      "id": "daily-57",
+      "level": "daily",
+      "category": "Prioritization",
+      "jp": "この件は次の優先順位にします。",
+      "en": "We'll put this in the next priority tier.",
+      "hint": "priority tier"
+    },
+    {
+      "id": "daily-58",
+      "level": "daily",
+      "category": "Clarification",
+      "jp": "念のため、再度確認します。",
+      "en": "Just to confirm once more.",
+      "hint": "confirm once more"
+    },
+    {
+      "id": "daily-59",
+      "level": "daily",
+      "category": "Planning",
+      "jp": "現時点では見積もりを更新中です。",
+      "en": "We're updating the estimate right now.",
+      "hint": "updating the estimate"
+    },
+    {
+      "id": "daily-60",
+      "level": "daily",
+      "category": "Work planning",
+      "jp": "今週はレビューに集中します。",
+      "en": "This week we're focused on reviews.",
+      "hint": "focused on reviews"
+    },
+    {
+      "id": "daily-61",
+      "level": "daily",
+      "category": "Alignment",
+      "jp": "次回までに方向性を揃えます。",
+      "en": "We'll align on the direction before next time.",
+      "hint": "align on the direction"
+    },
+    {
+      "id": "daily-62",
+      "level": "daily",
+      "category": "Meeting - closure",
+      "jp": "この件は一旦クローズします。",
+      "en": "Let's close this out for now.",
+      "hint": "close this out"
+    },
+    {
+      "id": "daily-63",
+      "level": "daily",
+      "category": "Follow-up",
+      "jp": "こちらで確認でき次第連絡します。",
+      "en": "I'll get back once I confirm on my side.",
+      "hint": "get back once I confirm"
+    },
+    {
+      "id": "daily-64",
+      "level": "daily",
+      "category": "Planning",
+      "jp": "優先順位の変更があれば教えてください。",
+      "en": "Let me know if priorities change.",
+      "hint": "priorities change"
+    },
+    {
+      "id": "daily-65",
+      "level": "daily",
+      "category": "Deadline confirmation",
+      "jp": "こちらの対応期限を確認させてください。",
+      "en": "Could you confirm the deadline for this item?",
+      "hint": "confirm the deadline"
+    },
+    {
+      "id": "daily-66",
+      "level": "daily",
+      "category": "Preparation",
+      "jp": "対応に必要な情報を整理します。",
+      "en": "I'll organize the information needed to proceed.",
+      "hint": "information needed to proceed"
+    },
+    {
+      "id": "daily-67",
+      "level": "daily",
+      "category": "Meeting - record",
+      "jp": "この点は合意事項として記録します。",
+      "en": "We'll log this as an agreed item.",
+      "hint": "log this as agreed"
+    },
+    {
+      "id": "daily-68",
+      "level": "daily",
+      "category": "Decision prep",
+      "jp": "必要な判断材料を揃えます。",
+      "en": "I'll pull together the inputs needed for the decision.",
+      "hint": "inputs needed"
+    },
+    {
+      "id": "daily-69",
+      "level": "daily",
+      "category": "Meeting - recap",
+      "jp": "今日の内容は共有事項としてまとめます。",
+      "en": "I'll recap today's discussion for circulation.",
+      "hint": "recap for circulation"
+    },
+    {
+      "id": "daily-70",
+      "level": "daily",
+      "category": "Status update",
+      "jp": "こちらの対応状況を定期的に更新します。",
+      "en": "I'll provide regular updates on this.",
+      "hint": "regular updates"
+    },
+    {
+      "id": "business-1",
+      "level": "business",
+      "category": "Stakeholder alignment",
+      "jp": "主要な意思決定者を巻き込む必要があります。",
+      "en": "We need to engage the key decision makers.",
+      "hint": "engage the key decision makers"
+    },
+    {
+      "id": "business-2",
+      "level": "business",
+      "category": "Decision-making",
+      "jp": "リスクとトレードオフを明確に説明します。",
+      "en": "We'll clearly articulate the risks and trade-offs.",
+      "hint": "articulate the risks"
+    },
+    {
+      "id": "business-3",
+      "level": "business",
+      "category": "Alignment",
+      "jp": "優先順位を合わせるために一度整理しましょう。",
+      "en": "Let's revisit priorities to stay aligned.",
+      "hint": "revisit priorities"
+    },
+    {
+      "id": "business-4",
+      "level": "business",
+      "category": "Escalation",
+      "jp": "この課題はエスカレーションが必要です。",
+      "en": "This issue needs to be escalated.",
+      "hint": "needs to be escalated"
+    },
+    {
+      "id": "business-5",
+      "level": "business",
+      "category": "Reporting",
+      "jp": "影響範囲を可視化して報告します。",
+      "en": "We'll report with visibility into the impact scope.",
+      "hint": "impact scope"
+    },
+    {
+      "id": "business-6",
+      "level": "business",
+      "category": "Governance",
+      "jp": "最終判断は経営層に委ねます。",
+      "en": "We'll defer the final decision to leadership.",
+      "hint": "defer the final decision"
+    },
+    {
+      "id": "business-7",
+      "level": "business",
+      "category": "Delivery planning",
+      "jp": "期限遵守のためにリソースを再配分します。",
+      "en": "We'll reallocate resources to meet the deadline.",
+      "hint": "reallocate resources"
+    },
+    {
+      "id": "business-8",
+      "level": "business",
+      "category": "Accountability",
+      "jp": "責任範囲を明文化して合意を取ります。",
+      "en": "We'll document ownership and secure agreement.",
+      "hint": "document ownership"
+    },
+    {
+      "id": "business-9",
+      "level": "business",
+      "category": "Executive reporting",
+      "jp": "意思決定の根拠を資料に残します。",
+      "en": "We'll capture the rationale in the deck.",
+      "hint": "capture the rationale"
+    },
+    {
+      "id": "business-10",
+      "level": "business",
+      "category": "Expectation management",
+      "jp": "ステークホルダーに現実的な期待値を設定します。",
+      "en": "We'll set realistic expectations with stakeholders.",
+      "hint": "realistic expectations"
+    },
+    {
+      "id": "business-11",
+      "level": "business",
+      "category": "Compliance",
+      "jp": "この変更は法務レビューが必須です。",
+      "en": "This change requires legal review.",
+      "hint": "requires legal review"
+    },
+    {
+      "id": "business-12",
+      "level": "business",
+      "category": "Risk communication",
+      "jp": "重要指標に影響が出るため先に共有します。",
+      "en": "I'm flagging this early because it impacts key metrics.",
+      "hint": "flagging this early"
+    },
+    {
+      "id": "business-13",
+      "level": "business",
+      "category": "Meeting follow-up",
+      "jp": "会議後に決定事項をまとめて送ります。",
+      "en": "I'll send a summary of the decisions after the meeting.",
+      "hint": "summary of the decisions"
+    },
+    {
+      "id": "business-14",
+      "level": "business",
+      "category": "Meeting - action items",
+      "jp": "アクションアイテムの期限を明確にしましょう。",
+      "en": "Let's clarify the due dates for action items.",
+      "hint": "due dates"
+    },
+    {
+      "id": "business-15",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "議論が拡散しているので論点を戻します。",
+      "en": "The discussion is drifting, so let's refocus.",
+      "hint": "refocus"
+    },
+    {
+      "id": "business-16",
+      "level": "business",
+      "category": "Alignment",
+      "jp": "合意形成のため、懸念点を出しておきたいです。",
+      "en": "I'd like to surface concerns to reach alignment.",
+      "hint": "surface concerns"
+    },
+    {
+      "id": "business-17",
+      "level": "business",
+      "category": "Meeting - decision",
+      "jp": "この提案に反対意見はありますか？",
+      "en": "Any objections to this proposal?",
+      "hint": "objections"
+    },
+    {
+      "id": "business-18",
+      "level": "business",
+      "category": "Meeting planning",
+      "jp": "検討事項を整理し、次回の議題に入れます。",
+      "en": "We'll organize the open points and include them next time.",
+      "hint": "open points"
+    },
+    {
+      "id": "business-19",
+      "level": "business",
+      "category": "Governance",
+      "jp": "念のため、合意事項を文書化します。",
+      "en": "To be safe, we'll document the agreements.",
+      "hint": "document the agreements"
+    },
+    {
+      "id": "business-20",
+      "level": "business",
+      "category": "Communication",
+      "jp": "関係者全員に同じメッセージを出します。",
+      "en": "We'll send a consistent message to all stakeholders.",
+      "hint": "consistent message"
+    },
+    {
+      "id": "business-21",
+      "level": "business",
+      "category": "Meeting wrap-up",
+      "jp": "次のアクションを明確にして終了します。",
+      "en": "Let's close by clarifying the next actions.",
+      "hint": "clarifying the next actions"
+    },
+    {
+      "id": "business-22",
+      "level": "business",
+      "category": "Email",
+      "jp": "この内容はFYIとして共有します。",
+      "en": "Sharing this as FYI.",
+      "hint": "FYI"
+    },
+    {
+      "id": "business-23",
+      "level": "business",
+      "category": "Status report",
+      "jp": "対応が遅れている点について報告します。",
+      "en": "I'm reporting the delay in our response.",
+      "hint": "reporting the delay"
+    },
+    {
+      "id": "business-24",
+      "level": "business",
+      "category": "Customer communication",
+      "jp": "顧客に影響するので先に連絡します。",
+      "en": "I'm informing the client first since it impacts them.",
+      "hint": "informing the client"
+    },
+    {
+      "id": "business-25",
+      "level": "business",
+      "category": "Business writing",
+      "jp": "レビューのためにドラフトを共有します。",
+      "en": "Sharing the draft for your review.",
+      "hint": "draft for your review"
+    },
+    {
+      "id": "business-26",
+      "level": "business",
+      "category": "Governance",
+      "jp": "承認が取れ次第進めます。",
+      "en": "We'll proceed once approval is secured.",
+      "hint": "once approval is secured"
+    },
+    {
+      "id": "business-27",
+      "level": "business",
+      "category": "Email - request",
+      "jp": "依頼内容を整理して再送します。",
+      "en": "I'll organize the request and resend it.",
+      "hint": "resend"
+    },
+    {
+      "id": "business-28",
+      "level": "business",
+      "category": "Prioritization",
+      "jp": "対応優先度を明確にする必要があります。",
+      "en": "We need to make the priority explicit.",
+      "hint": "priority explicit"
+    },
+    {
+      "id": "business-29",
+      "level": "business",
+      "category": "Risk communication",
+      "jp": "想定リスクを先に共有します。",
+      "en": "I'll share the anticipated risks upfront.",
+      "hint": "anticipated risks"
+    },
+    {
+      "id": "business-30",
+      "level": "business",
+      "category": "Reporting",
+      "jp": "今週の報告をまとめました。",
+      "en": "I've compiled this week's report.",
+      "hint": "compiled this week's report"
+    },
+    {
+      "id": "business-31",
+      "level": "business",
+      "category": "Escalation",
+      "jp": "エスカレーションのルートを確認しましょう。",
+      "en": "Let's confirm the escalation path.",
+      "hint": "escalation path"
+    },
+    {
+      "id": "business-32",
+      "level": "business",
+      "category": "Stakeholder alignment",
+      "jp": "この判断は複数部門の合意が必要です。",
+      "en": "This decision requires cross-functional alignment.",
+      "hint": "cross-functional alignment"
+    },
+    {
+      "id": "business-33",
+      "level": "business",
+      "category": "Business impact",
+      "jp": "この変更はコストに影響します。",
+      "en": "This change impacts cost.",
+      "hint": "impacts cost"
+    },
+    {
+      "id": "business-34",
+      "level": "business",
+      "category": "Decision timing",
+      "jp": "次の会議で結論を出す予定です。",
+      "en": "We plan to make the call in the next meeting.",
+      "hint": "make the call"
+    },
+    {
+      "id": "business-35",
+      "level": "business",
+      "category": "Expectation management",
+      "jp": "顧客の期待値を再確認します。",
+      "en": "We'll reconfirm the client's expectations.",
+      "hint": "reconfirm expectations"
+    },
+    {
+      "id": "business-36",
+      "level": "business",
+      "category": "Decision",
+      "jp": "今回の判断は暫定で進めます。",
+      "en": "We'll proceed on a tentative basis.",
+      "hint": "tentative basis"
+    },
+    {
+      "id": "business-37",
+      "level": "business",
+      "category": "Trade-off",
+      "jp": "リスクは残りますがメリットが上回ります。",
+      "en": "There is risk, but the upside outweighs it.",
+      "hint": "upside outweighs it"
+    },
+    {
+      "id": "business-38",
+      "level": "business",
+      "category": "Meeting follow-up",
+      "jp": "次のステップを明文化して共有します。",
+      "en": "I'll document the next steps and share them.",
+      "hint": "document the next steps"
+    },
+    {
+      "id": "business-39",
+      "level": "business",
+      "category": "Coordination",
+      "jp": "関係者に確認を依頼します。",
+      "en": "I'll ask the stakeholders for confirmation.",
+      "hint": "ask for confirmation"
+    },
+    {
+      "id": "business-40",
+      "level": "business",
+      "category": "Governance",
+      "jp": "追加の承認が必要であれば教えてください。",
+      "en": "Let me know if additional approval is needed.",
+      "hint": "additional approval"
+    },
+    {
+      "id": "business-41",
+      "level": "business",
+      "category": "Decision rationale",
+      "jp": "こちらの判断はリスク評価に基づいています。",
+      "en": "This call is based on the risk assessment.",
+      "hint": "risk assessment"
+    },
+    {
+      "id": "business-42",
+      "level": "business",
+      "category": "Status update",
+      "jp": "この件は既に対応済みです。",
+      "en": "This has already been addressed.",
+      "hint": "already been addressed"
+    },
+    {
+      "id": "business-43",
+      "level": "business",
+      "category": "Scope management",
+      "jp": "対象範囲を明確にした上で進めます。",
+      "en": "We'll proceed after clarifying the scope.",
+      "hint": "clarifying the scope"
+    },
+    {
+      "id": "business-44",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "結論だけ先に共有します。",
+      "en": "Sharing the conclusion upfront.",
+      "hint": "conclusion upfront"
+    },
+    {
+      "id": "business-45",
+      "level": "business",
+      "category": "Reporting",
+      "jp": "次の報告で詳細を共有します。",
+      "en": "I'll share the details in the next report.",
+      "hint": "next report"
+    },
+    {
+      "id": "business-46",
+      "level": "business",
+      "category": "Trade-off",
+      "jp": "今回の判断はスケジュール優先です。",
+      "en": "This decision prioritizes the schedule.",
+      "hint": "prioritizes the schedule"
+    },
+    {
+      "id": "business-47",
+      "level": "business",
+      "category": "Customer alignment",
+      "jp": "顧客の優先順位に合わせて調整します。",
+      "en": "We'll adjust to the client's priorities.",
+      "hint": "adjust to the client's priorities"
+    },
+    {
+      "id": "business-48",
+      "level": "business",
+      "category": "Executive reporting",
+      "jp": "この点は経営層への報告が必要です。",
+      "en": "This needs to be reported to leadership.",
+      "hint": "reported to leadership"
+    },
+    {
+      "id": "business-49",
+      "level": "business",
+      "category": "Alignment",
+      "jp": "暫定合意として進めます。",
+      "en": "We'll proceed with a provisional agreement.",
+      "hint": "provisional agreement"
+    },
+    {
+      "id": "business-50",
+      "level": "business",
+      "category": "Problem framing",
+      "jp": "現状の課題を整理し直します。",
+      "en": "We'll reframe the current issues.",
+      "hint": "reframe the issues"
+    },
+    {
+      "id": "business-51",
+      "level": "business",
+      "category": "Business impact",
+      "jp": "この決定は利益率に影響します。",
+      "en": "This decision affects our margin.",
+      "hint": "affects our margin"
+    },
+    {
+      "id": "business-52",
+      "level": "business",
+      "category": "Customer communication",
+      "jp": "顧客対応の状況を定期的に共有します。",
+      "en": "We'll provide regular updates on client communication.",
+      "hint": "regular updates"
+    },
+    {
+      "id": "business-53",
+      "level": "business",
+      "category": "Alignment",
+      "jp": "この点は事前に合意を取っておきます。",
+      "en": "Let's get agreement on this upfront.",
+      "hint": "agreement upfront"
+    },
+    {
+      "id": "business-54",
+      "level": "business",
+      "category": "Governance",
+      "jp": "今回の対応は例外対応です。",
+      "en": "This is an exception handling.",
+      "hint": "exception handling"
+    },
+    {
+      "id": "business-55",
+      "level": "business",
+      "category": "Planning",
+      "jp": "次のフェーズの条件を整理します。",
+      "en": "We'll define the criteria for the next phase.",
+      "hint": "criteria for the next phase"
+    },
+    {
+      "id": "business-56",
+      "level": "business",
+      "category": "Customer approval",
+      "jp": "顧客の合意が得られたら進めます。",
+      "en": "We'll proceed once the client signs off.",
+      "hint": "client signs off"
+    },
+    {
+      "id": "business-57",
+      "level": "business",
+      "category": "Prioritization",
+      "jp": "新しい依頼は優先順位を見直してから対応します。",
+      "en": "We'll take new requests after we recheck priorities.",
+      "hint": "recheck priorities"
+    },
+    {
+      "id": "business-58",
+      "level": "business",
+      "category": "Prioritization",
+      "jp": "緊急度の高いものから着手します。",
+      "en": "We'll start with the most urgent items.",
+      "hint": "most urgent items"
+    },
+    {
+      "id": "business-59",
+      "level": "business",
+      "category": "Risk management",
+      "jp": "このリスクは現時点で許容範囲です。",
+      "en": "The risk is within tolerance at this point.",
+      "hint": "within tolerance"
+    },
+    {
+      "id": "business-60",
+      "level": "business",
+      "category": "Governance",
+      "jp": "関連部門のレビューを入れます。",
+      "en": "We'll incorporate a cross-team review.",
+      "hint": "cross-team review"
+    },
+    {
+      "id": "business-61",
+      "level": "business",
+      "category": "Stakeholder management",
+      "jp": "この点はステークホルダーに早めに共有します。",
+      "en": "We'll socialize this with stakeholders early.",
+      "hint": "socialize this"
+    },
+    {
+      "id": "business-62",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "判断の理由を簡潔にまとめます。",
+      "en": "I'll summarize the rationale concisely.",
+      "hint": "rationale concisely"
+    },
+    {
+      "id": "business-63",
+      "level": "business",
+      "category": "Commercial",
+      "jp": "追加コストの発生条件を整理します。",
+      "en": "We'll define the conditions that trigger additional cost.",
+      "hint": "trigger additional cost"
+    },
+    {
+      "id": "business-64",
+      "level": "business",
+      "category": "Executive reporting",
+      "jp": "今週中に経営層に報告します。",
+      "en": "We'll brief leadership this week.",
+      "hint": "brief leadership"
+    },
+    {
+      "id": "business-65",
+      "level": "business",
+      "category": "Governance",
+      "jp": "合意事項は公式文書に反映します。",
+      "en": "We'll reflect the agreements in the official document.",
+      "hint": "official document"
+    },
+    {
+      "id": "business-66",
+      "level": "business",
+      "category": "Decision framing",
+      "jp": "この件は意思決定の前提として扱います。",
+      "en": "We'll treat this as a decision prerequisite.",
+      "hint": "decision prerequisite"
+    },
+    {
+      "id": "business-67",
+      "level": "business",
+      "category": "Risk management",
+      "jp": "影響範囲が広いので段階的に進めます。",
+      "en": "We'll phase this given the broad impact.",
+      "hint": "phase this"
+    },
+    {
+      "id": "business-68",
+      "level": "business",
+      "category": "Compliance",
+      "jp": "この変更は契約上の確認が必要です。",
+      "en": "This change needs contractual review.",
+      "hint": "contractual review"
+    },
+    {
+      "id": "business-69",
+      "level": "business",
+      "category": "Business writing",
+      "jp": "依頼内容を明確にするため追加質問します。",
+      "en": "I'll ask a few questions to clarify the request.",
+      "hint": "clarify the request"
+    },
+    {
+      "id": "business-70",
+      "level": "business",
+      "category": "Governance",
+      "jp": "この件は次回のステアリングで判断します。",
+      "en": "We'll decide this in the next steering meeting.",
+      "hint": "steering meeting"
+    },
+    {
+      "id": "business-71",
+      "level": "business",
+      "category": "Alignment",
+      "jp": "念のため合意事項を再確認させてください。",
+      "en": "Let me reconfirm the agreed items.",
+      "hint": "reconfirm the agreed items"
+    },
+    {
+      "id": "business-72",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "この内容は経営層に要点だけ伝えます。",
+      "en": "We'll brief leadership on the highlights only.",
+      "hint": "highlights only"
+    },
+    {
+      "id": "business-73",
+      "level": "business",
+      "category": "Decision prep",
+      "jp": "意思決定に必要な追加情報を集めます。",
+      "en": "We'll gather additional inputs for the decision.",
+      "hint": "additional inputs"
+    },
+    {
+      "id": "business-74",
+      "level": "business",
+      "category": "Meeting - decision",
+      "jp": "反対意見があれば今出してください。",
+      "en": "If there are objections, please raise them now.",
+      "hint": "raise them now"
+    },
+    {
+      "id": "business-75",
+      "level": "business",
+      "category": "Risk management",
+      "jp": "リスクが高いので先に合意を取ります。",
+      "en": "Given the risk, let's secure alignment first.",
+      "hint": "secure alignment"
+    },
+    {
+      "id": "business-76",
+      "level": "business",
+      "category": "Issue reporting",
+      "jp": "想定外の作業が発生したため共有します。",
+      "en": "I'm flagging unexpected work that came up.",
+      "hint": "unexpected work"
+    },
+    {
+      "id": "business-77",
+      "level": "business",
+      "category": "Scope management",
+      "jp": "対応範囲を明確にした上で調整します。",
+      "en": "We'll align after clarifying the coverage.",
+      "hint": "clarifying the coverage"
+    },
+    {
+      "id": "business-78",
+      "level": "business",
+      "category": "Risk management",
+      "jp": "現状の前提で進める場合のリスクを記載します。",
+      "en": "We'll document the risks under the current assumptions.",
+      "hint": "current assumptions"
+    },
+    {
+      "id": "business-79",
+      "level": "business",
+      "category": "Customer approval",
+      "jp": "この点は顧客合意なしでは進められません。",
+      "en": "We can't proceed without client sign-off on this.",
+      "hint": "client sign-off"
+    },
+    {
+      "id": "business-80",
+      "level": "business",
+      "category": "Alignment",
+      "jp": "重要事項だけ先に合意を取りたいです。",
+      "en": "I'd like to secure agreement on the critical points first.",
+      "hint": "critical points"
+    },
+    {
+      "id": "business-81",
+      "level": "business",
+      "category": "Communication",
+      "jp": "全体像を共有した上で詳細に入ります。",
+      "en": "We'll share the big picture before diving into details.",
+      "hint": "big picture"
+    },
+    {
+      "id": "business-82",
+      "level": "business",
+      "category": "Business writing",
+      "jp": "会議後に簡潔なサマリーを送りします。",
+      "en": "I'll send a concise summary after the meeting.",
+      "hint": "concise summary"
+    },
+    {
+      "id": "business-83",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前にスコープ変更について認識を合わせましょう。",
+      "en": "Let's align on scope changes before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-84",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前にスコープ変更について認識を合わせましょう。",
+      "en": "Let's align on scope changes ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-85",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前にスコープ変更について認識を合わせましょう。",
+      "en": "Let's align on scope changes before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-86",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前にスコープ変更について認識を合わせましょう。",
+      "en": "Let's align on scope changes prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-87",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前にスコープ変更について認識を合わせましょう。",
+      "en": "Let's align on scope changes before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-88",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前にマイルストーンについて認識を合わせましょう。",
+      "en": "Let's align on delivery milestones before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-89",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前にマイルストーンについて認識を合わせましょう。",
+      "en": "Let's align on delivery milestones ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-90",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前にマイルストーンについて認識を合わせましょう。",
+      "en": "Let's align on delivery milestones before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-91",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前にマイルストーンについて認識を合わせましょう。",
+      "en": "Let's align on delivery milestones prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-92",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前にマイルストーンについて認識を合わせましょう。",
+      "en": "Let's align on delivery milestones before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-93",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前にリスクのオーナーについて認識を合わせましょう。",
+      "en": "Let's align on risk ownership before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-94",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前にリスクのオーナーについて認識を合わせましょう。",
+      "en": "Let's align on risk ownership ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-95",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前にリスクのオーナーについて認識を合わせましょう。",
+      "en": "Let's align on risk ownership before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-96",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前にリスクのオーナーについて認識を合わせましょう。",
+      "en": "Let's align on risk ownership prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-97",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前にリスクのオーナーについて認識を合わせましょう。",
+      "en": "Let's align on risk ownership before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-98",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前に依存関係の管理について認識を合わせましょう。",
+      "en": "Let's align on dependency tracking before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-99",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前に依存関係の管理について認識を合わせましょう。",
+      "en": "Let's align on dependency tracking ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-100",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前に依存関係の管理について認識を合わせましょう。",
+      "en": "Let's align on dependency tracking before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-101",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前に依存関係の管理について認識を合わせましょう。",
+      "en": "Let's align on dependency tracking prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-102",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前に依存関係の管理について認識を合わせましょう。",
+      "en": "Let's align on dependency tracking before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-103",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前にリソース配分について認識を合わせましょう。",
+      "en": "Let's align on resource allocation before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-104",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前にリソース配分について認識を合わせましょう。",
+      "en": "Let's align on resource allocation ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-105",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前にリソース配分について認識を合わせましょう。",
+      "en": "Let's align on resource allocation before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-106",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前にリソース配分について認識を合わせましょう。",
+      "en": "Let's align on resource allocation prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-107",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前にリソース配分について認識を合わせましょう。",
+      "en": "Let's align on resource allocation before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-108",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前に予算のガードレールについて認識を合わせましょう。",
+      "en": "Let's align on budget guardrails before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-109",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前に予算のガードレールについて認識を合わせましょう。",
+      "en": "Let's align on budget guardrails ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-110",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前に予算のガードレールについて認識を合わせましょう。",
+      "en": "Let's align on budget guardrails before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-111",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前に予算のガードレールについて認識を合わせましょう。",
+      "en": "Let's align on budget guardrails prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-112",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前に予算のガードレールについて認識を合わせましょう。",
+      "en": "Let's align on budget guardrails before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-113",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前にガバナンスのチェックポイントについて認識を合わせましょう。",
+      "en": "Let's align on governance checkpoints before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-114",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前にガバナンスのチェックポイントについて認識を合わせましょう。",
+      "en": "Let's align on governance checkpoints ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-115",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前にガバナンスのチェックポイントについて認識を合わせましょう。",
+      "en": "Let's align on governance checkpoints before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-116",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前にガバナンスのチェックポイントについて認識を合わせましょう。",
+      "en": "Let's align on governance checkpoints prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-117",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前にガバナンスのチェックポイントについて認識を合わせましょう。",
+      "en": "Let's align on governance checkpoints before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-118",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前にスケジュールのトレードオフについて認識を合わせましょう。",
+      "en": "Let's align on timeline trade-offs before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-119",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前にスケジュールのトレードオフについて認識を合わせましょう。",
+      "en": "Let's align on timeline trade-offs ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-120",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前にスケジュールのトレードオフについて認識を合わせましょう。",
+      "en": "Let's align on timeline trade-offs before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-121",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前にスケジュールのトレードオフについて認識を合わせましょう。",
+      "en": "Let's align on timeline trade-offs prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-122",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前にスケジュールのトレードオフについて認識を合わせましょう。",
+      "en": "Let's align on timeline trade-offs before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-123",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前に品質基準について認識を合わせましょう。",
+      "en": "Let's align on quality thresholds before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-124",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前に品質基準について認識を合わせましょう。",
+      "en": "Let's align on quality thresholds ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-125",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前に品質基準について認識を合わせましょう。",
+      "en": "Let's align on quality thresholds before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-126",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前に品質基準について認識を合わせましょう。",
+      "en": "Let's align on quality thresholds prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-127",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前に品質基準について認識を合わせましょう。",
+      "en": "Let's align on quality thresholds before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-128",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "計画を確定する前に顧客の期待値について認識を合わせましょう。",
+      "en": "Let's align on client expectations before we lock the plan.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-129",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ステアリング前に顧客の期待値について認識を合わせましょう。",
+      "en": "Let's align on client expectations ahead of the steering committee.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-130",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "次のスプリント前に顧客の期待値について認識を合わせましょう。",
+      "en": "Let's align on client expectations before the next sprint.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-131",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "経営層レビュー前に顧客の期待値について認識を合わせましょう。",
+      "en": "Let's align on client expectations prior to the executive review.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-132",
+      "level": "business",
+      "category": "Meeting facilitation",
+      "jp": "ロールアウト確定前に顧客の期待値について認識を合わせましょう。",
+      "en": "Let's align on client expectations before we confirm the rollout.",
+      "hint": "align on"
+    },
+    {
+      "id": "business-133",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は根本原因はデータ遅延です。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the root cause is data latency; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-134",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は根本原因はデータ遅延です。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the root cause is data latency; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-135",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は根本原因はデータ遅延です。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the root cause is data latency; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-136",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は根本原因はデータ遅延です。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the root cause is data latency; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-137",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は根本原因はデータ遅延です。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the root cause is data latency; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-138",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要因はユーザー定着です。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the key driver is adoption; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-139",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要因はユーザー定着です。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the key driver is adoption; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-140",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要因はユーザー定着です。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the key driver is adoption; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-141",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要因はユーザー定着です。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the key driver is adoption; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-142",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要因はユーザー定着です。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the key driver is adoption; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-143",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は制約はキャパシティです。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the constraint is capacity; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-144",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は制約はキャパシティです。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the constraint is capacity; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-145",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は制約はキャパシティです。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the constraint is capacity; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-146",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は制約はキャパシティです。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the constraint is capacity; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-147",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は制約はキャパシティです。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the constraint is capacity; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-148",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はボトルネックは承認です。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the bottleneck is approvals; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-149",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はボトルネックは承認です。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the bottleneck is approvals; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-150",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はボトルネックは承認です。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the bottleneck is approvals; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-151",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はボトルネックは承認です。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the bottleneck is approvals; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-152",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はボトルネックは承認です。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the bottleneck is approvals; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-153",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はリスクはベンダー依存です。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the risk is vendor dependency; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-154",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はリスクはベンダー依存です。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the risk is vendor dependency; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-155",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はリスクはベンダー依存です。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the risk is vendor dependency; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-156",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はリスクはベンダー依存です。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the risk is vendor dependency; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-157",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はリスクはベンダー依存です。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the risk is vendor dependency; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-158",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はアップサイドは自動化です。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the upside is automation; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-159",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はアップサイドは自動化です。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the upside is automation; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-160",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はアップサイドは自動化です。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the upside is automation; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-161",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はアップサイドは自動化です。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the upside is automation; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-162",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はアップサイドは自動化です。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the upside is automation; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-163",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要ギャップはガバナンスです。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the main gap is governance; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-164",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要ギャップはガバナンスです。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the main gap is governance; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-165",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要ギャップはガバナンスです。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the main gap is governance; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-166",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要ギャップはガバナンスです。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the main gap is governance; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-167",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は主要ギャップはガバナンスです。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the main gap is governance; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-168",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は前提は需要の安定です。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the assumption is stable demand; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-169",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は前提は需要の安定です。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the assumption is stable demand; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-170",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は前提は需要の安定です。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the assumption is stable demand; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-171",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は前提は需要の安定です。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the assumption is stable demand; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-172",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説は前提は需要の安定です。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the assumption is stable demand; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-173",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はレバーは標準化です。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the lever is standardization; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-174",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はレバーは標準化です。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the lever is standardization; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-175",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はレバーは標準化です。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the lever is standardization; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-176",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はレバーは標準化です。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the lever is standardization; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-177",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はレバーは標準化です。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the lever is standardization; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-178",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はブロッカーは責任不明確です。今週中に仮説を検証しましょう。",
+      "en": "Our working hypothesis is that the blocker is unclear ownership; let's test this hypothesis this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-179",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はブロッカーは責任不明確です。今週中に前提を精査しましょう。",
+      "en": "Our working hypothesis is that the blocker is unclear ownership; let's pressure-test this assumption this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-180",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はブロッカーは責任不明確です。今週中に関係者と検証しましょう。",
+      "en": "Our working hypothesis is that the blocker is unclear ownership; let's validate this with stakeholders this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-181",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はブロッカーは責任不明確です。今週中に影響を定量化しましょう。",
+      "en": "Our working hypothesis is that the blocker is unclear ownership; let's quantify the impact this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-182",
+      "level": "business",
+      "category": "Consulting style",
+      "jp": "暫定仮説はブロッカーは責任不明確です。今週中にトレードオフをモデル化しましょう。",
+      "en": "Our working hypothesis is that the blocker is unclear ownership; let's model the trade-offs this week.",
+      "hint": "working hypothesis"
+    },
+    {
+      "id": "business-183",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "スケジュールリスクについて悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the timeline risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-184",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "スケジュールリスクについて悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the timeline risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-185",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "スケジュールリスクについて悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the timeline risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-186",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "スケジュールリスクについて悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the timeline risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-187",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "スケジュールリスクについて悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the timeline risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-188",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "予算差異について悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the budget variance before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-189",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "予算差異について悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the budget variance before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-190",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "予算差異について悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the budget variance before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-191",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "予算差異について悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the budget variance before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-192",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "予算差異について悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the budget variance before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-193",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "顧客影響について悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the customer impact before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-194",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "顧客影響について悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the customer impact before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-195",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "顧客影響について悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the customer impact before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-196",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "顧客影響について悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the customer impact before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-197",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "顧客影響について悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the customer impact before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-198",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "規制対応の露出について悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the regulatory exposure before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-199",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "規制対応の露出について悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the regulatory exposure before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-200",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "規制対応の露出について悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the regulatory exposure before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-201",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "規制対応の露出について悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the regulatory exposure before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-202",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "規制対応の露出について悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the regulatory exposure before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-203",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "デリバリーの確度について悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the delivery confidence before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-204",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "デリバリーの確度について悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the delivery confidence before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-205",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "デリバリーの確度について悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the delivery confidence before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-206",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "デリバリーの確度について悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the delivery confidence before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-207",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "デリバリーの確度について悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the delivery confidence before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-208",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "ベンダーエスカレーションについて悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the vendor escalation before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-209",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "ベンダーエスカレーションについて悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the vendor escalation before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-210",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "ベンダーエスカレーションについて悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the vendor escalation before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-211",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "ベンダーエスカレーションについて悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the vendor escalation before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-212",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "ベンダーエスカレーションについて悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the vendor escalation before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-213",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "見通し精度について悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the forecast accuracy before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-214",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "見通し精度について悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the forecast accuracy before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-215",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "見通し精度について悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the forecast accuracy before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-216",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "見通し精度について悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the forecast accuracy before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-217",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "見通し精度について悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the forecast accuracy before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-218",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "パイプライン健全性について悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the pipeline health before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-219",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "パイプライン健全性について悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the pipeline health before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-220",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "パイプライン健全性について悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the pipeline health before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-221",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "パイプライン健全性について悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the pipeline health before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-222",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "パイプライン健全性について悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the pipeline health before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-223",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "運用安定性について悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the operational stability before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-224",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "運用安定性について悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the operational stability before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-225",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "運用安定性について悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the operational stability before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-226",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "運用安定性について悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the operational stability before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-227",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "運用安定性について悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the operational stability before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-228",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "収益リスクについて悪化する前に早期に共有したいです。",
+      "en": "I want to flag this early on the revenue risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-229",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "収益リスクについて悪化する前に要点を共有したいです。",
+      "en": "I want to share the headline on the revenue risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-230",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "収益リスクについて悪化する前に判断を依頼したいです。",
+      "en": "I want to request a decision on the revenue risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-231",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "収益リスクについて悪化する前に方針を相談したいです。",
+      "en": "I want to ask for guidance on the revenue risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "business-232",
+      "level": "business",
+      "category": "Executive communication",
+      "jp": "収益リスクについて悪化する前に対策を提案したいです。",
+      "en": "I want to propose a mitigation on the revenue risk before it escalates.",
+      "hint": "before it escalates"
+    },
+    {
+      "id": "enterprise-1",
+      "level": "enterprise",
+      "category": "Cloud strategy",
+      "jp": "クラウド移行の前提条件を経営層と合意します。",
+      "en": "We'll align on the cloud migration prerequisites with leadership.",
+      "hint": "migration prerequisites"
+    },
+    {
+      "id": "enterprise-2",
+      "level": "enterprise",
+      "category": "System integration",
+      "jp": "API統合の影響を既存システムごとに評価します。",
+      "en": "We'll assess API integration impact across legacy systems.",
+      "hint": "assess API integration"
+    },
+    {
+      "id": "enterprise-3",
+      "level": "enterprise",
+      "category": "DevOps",
+      "jp": "デプロイ後のロールバック手順を標準化します。",
+      "en": "We'll standardize the rollback procedure post-deployment.",
+      "hint": "standardize rollback"
+    },
+    {
+      "id": "enterprise-4",
+      "level": "enterprise",
+      "category": "Incident response",
+      "jp": "障害時の意思決定権限を明確にします。",
+      "en": "We'll clarify decision authority during incidents.",
+      "hint": "decision authority"
+    },
+    {
+      "id": "enterprise-5",
+      "level": "enterprise",
+      "category": "Security compliance",
+      "jp": "セキュリティ監査に備えて証跡を整理します。",
+      "en": "We'll organize audit trails for the security review.",
+      "hint": "audit trails"
+    },
+    {
+      "id": "enterprise-6",
+      "level": "enterprise",
+      "category": "Governance",
+      "jp": "データガバナンスの責任範囲を再定義します。",
+      "en": "We'll redefine ownership for data governance.",
+      "hint": "redefine ownership"
+    },
+    {
+      "id": "enterprise-7",
+      "level": "enterprise",
+      "category": "Release planning",
+      "jp": "顧客影響を最小化するため段階的にリリースします。",
+      "en": "We'll release in phases to minimize customer impact.",
+      "hint": "release in phases"
+    },
+    {
+      "id": "enterprise-8",
+      "level": "enterprise",
+      "category": "Service management",
+      "jp": "SLA違反のリスクを早期に報告します。",
+      "en": "We'll report the SLA breach risk early.",
+      "hint": "SLA breach risk"
+    },
+    {
+      "id": "enterprise-9",
+      "level": "enterprise",
+      "category": "Architecture",
+      "jp": "システム統合の依存関係を可視化します。",
+      "en": "We'll visualize dependencies for system integration.",
+      "hint": "visualize dependencies"
+    },
+    {
+      "id": "enterprise-10",
+      "level": "enterprise",
+      "category": "Incident management",
+      "jp": "本番障害の根本原因分析を完了させます。",
+      "en": "We'll complete the root cause analysis for the production outage.",
+      "hint": "root cause analysis"
+    },
+    {
+      "id": "enterprise-11",
+      "level": "enterprise",
+      "category": "Compliance",
+      "jp": "コンプライアンス要件を満たすため変更管理を強化します。",
+      "en": "We'll tighten change management to meet compliance requirements.",
+      "hint": "tighten change management"
+    },
+    {
+      "id": "enterprise-12",
+      "level": "enterprise",
+      "category": "Architecture review",
+      "jp": "アーキテクチャの意思決定をデザインレビューで確定します。",
+      "en": "We'll finalize architectural decisions in the design review.",
+      "hint": "finalize decisions"
+    },
+    {
+      "id": "enterprise-13",
+      "level": "enterprise",
+      "category": "Cloud operations",
+      "jp": "クラウド基盤のコスト最適化を進めます。",
+      "en": "We'll drive cloud cost optimization.",
+      "hint": "cost optimization"
+    },
+    {
+      "id": "enterprise-14",
+      "level": "enterprise",
+      "category": "Release planning",
+      "jp": "本番環境への影響を最小化する計画が必要です。",
+      "en": "We need a plan to minimize production impact.",
+      "hint": "minimize production impact"
+    },
+    {
+      "id": "enterprise-15",
+      "level": "enterprise",
+      "category": "API management",
+      "jp": "新しいAPI仕様は後方互換性を維持します。",
+      "en": "The new API spec preserves backward compatibility.",
+      "hint": "backward compatibility"
+    },
+    {
+      "id": "enterprise-16",
+      "level": "enterprise",
+      "category": "Incident response",
+      "jp": "障害対応の一次連絡先を明確にします。",
+      "en": "We'll identify the primary contact for incident response.",
+      "hint": "primary contact"
+    },
+    {
+      "id": "enterprise-17",
+      "level": "enterprise",
+      "category": "Security compliance",
+      "jp": "監査要件に合わせてログ保持期間を延長します。",
+      "en": "We'll extend log retention to meet audit requirements.",
+      "hint": "log retention"
+    },
+    {
+      "id": "enterprise-18",
+      "level": "enterprise",
+      "category": "Data governance",
+      "jp": "データ分類の基準を統一します。",
+      "en": "We'll standardize data classification criteria.",
+      "hint": "data classification"
+    },
+    {
+      "id": "enterprise-19",
+      "level": "enterprise",
+      "category": "Cloud architecture",
+      "jp": "マルチリージョン構成のリスクを評価します。",
+      "en": "We'll assess risks for the multi-region setup.",
+      "hint": "multi-region setup"
+    },
+    {
+      "id": "enterprise-20",
+      "level": "enterprise",
+      "category": "Vendor management",
+      "jp": "外部ベンダーのSLAを再確認します。",
+      "en": "We'll reconfirm the vendor SLA.",
+      "hint": "vendor SLA"
+    },
+    {
+      "id": "enterprise-21",
+      "level": "enterprise",
+      "category": "Migration",
+      "jp": "移行計画は段階的に実行します。",
+      "en": "We'll execute the migration in stages.",
+      "hint": "in stages"
+    },
+    {
+      "id": "enterprise-22",
+      "level": "enterprise",
+      "category": "Incident management",
+      "jp": "今回の障害の影響範囲を特定します。",
+      "en": "We'll pinpoint the impact scope of this incident.",
+      "hint": "impact scope"
+    },
+    {
+      "id": "enterprise-23",
+      "level": "enterprise",
+      "category": "API management",
+      "jp": "APIのレート制限を再設計します。",
+      "en": "We'll redesign the API rate limits.",
+      "hint": "rate limits"
+    },
+    {
+      "id": "enterprise-24",
+      "level": "enterprise",
+      "category": "Security architecture",
+      "jp": "認証基盤の統合方針を決めます。",
+      "en": "We'll decide the identity platform integration approach.",
+      "hint": "integration approach"
+    },
+    {
+      "id": "enterprise-25",
+      "level": "enterprise",
+      "category": "Business continuity",
+      "jp": "DR計画のRTO/RPOを見直します。",
+      "en": "We'll revisit the DR RTO and RPO targets.",
+      "hint": "RTO and RPO"
+    },
+    {
+      "id": "enterprise-26",
+      "level": "enterprise",
+      "category": "Security operations",
+      "jp": "セキュリティ脆弱性の修正期限を設定します。",
+      "en": "We'll set remediation timelines for vulnerabilities.",
+      "hint": "remediation timelines"
+    },
+    {
+      "id": "enterprise-27",
+      "level": "enterprise",
+      "category": "Data engineering",
+      "jp": "データパイプラインの監視を強化します。",
+      "en": "We'll strengthen monitoring for the data pipeline.",
+      "hint": "monitoring"
+    },
+    {
+      "id": "enterprise-28",
+      "level": "enterprise",
+      "category": "Security compliance",
+      "jp": "クラウドセキュリティのベースラインを策定します。",
+      "en": "We'll establish a cloud security baseline.",
+      "hint": "security baseline"
+    },
+    {
+      "id": "enterprise-29",
+      "level": "enterprise",
+      "category": "Architecture",
+      "jp": "システム統合の依存関係を整理します。",
+      "en": "We'll map the dependencies for system integration.",
+      "hint": "map the dependencies"
+    },
+    {
+      "id": "enterprise-30",
+      "level": "enterprise",
+      "category": "Reliability",
+      "jp": "重要ワークロードのSLOを設定します。",
+      "en": "We'll define SLOs for critical workloads.",
+      "hint": "define SLOs"
+    },
+    {
+      "id": "enterprise-31",
+      "level": "enterprise",
+      "category": "Governance",
+      "jp": "変更管理プロセスを更新します。",
+      "en": "We'll update the change management process.",
+      "hint": "change management"
+    },
+    {
+      "id": "enterprise-32",
+      "level": "enterprise",
+      "category": "Cloud architecture",
+      "jp": "APIゲートウェイの冗長構成を検討します。",
+      "en": "We'll evaluate redundant architecture for the API gateway.",
+      "hint": "redundant architecture"
+    },
+    {
+      "id": "enterprise-33",
+      "level": "enterprise",
+      "category": "Security",
+      "jp": "本番環境へのアクセス制御を強化します。",
+      "en": "We'll tighten production access controls.",
+      "hint": "access controls"
+    },
+    {
+      "id": "enterprise-34",
+      "level": "enterprise",
+      "category": "DevOps strategy",
+      "jp": "デプロイ頻度とリスクのバランスを取ります。",
+      "en": "We'll balance deployment frequency with risk.",
+      "hint": "balance deployment frequency"
+    },
+    {
+      "id": "enterprise-35",
+      "level": "enterprise",
+      "category": "Observability",
+      "jp": "ログ分析の精度を上げるためにタグ付けを統一します。",
+      "en": "We'll standardize tagging to improve log analytics accuracy.",
+      "hint": "standardize tagging"
+    },
+    {
+      "id": "enterprise-36",
+      "level": "enterprise",
+      "category": "Risk management",
+      "jp": "外部APIの依存リスクを明確にします。",
+      "en": "We'll clarify the dependency risk on external APIs.",
+      "hint": "dependency risk"
+    },
+    {
+      "id": "enterprise-37",
+      "level": "enterprise",
+      "category": "Security governance",
+      "jp": "データ共有の権限を最小化します。",
+      "en": "We'll minimize data sharing permissions.",
+      "hint": "minimize permissions"
+    },
+    {
+      "id": "enterprise-38",
+      "level": "enterprise",
+      "category": "Vendor management",
+      "jp": "クラウド契約の更新条件を確認します。",
+      "en": "We'll review renewal terms for the cloud contract.",
+      "hint": "renewal terms"
+    },
+    {
+      "id": "enterprise-39",
+      "level": "enterprise",
+      "category": "Resilience",
+      "jp": "重要システムのバックアップ検証を定期化します。",
+      "en": "We'll schedule regular backup verification for critical systems.",
+      "hint": "backup verification"
+    },
+    {
+      "id": "enterprise-40",
+      "level": "enterprise",
+      "category": "Incident analysis",
+      "jp": "ネットワーク遅延の原因を特定します。",
+      "en": "We'll identify the root causes of network latency.",
+      "hint": "network latency"
+    },
+    {
+      "id": "enterprise-41",
+      "level": "enterprise",
+      "category": "Architecture review",
+      "jp": "アーキテクチャレビューでリスクを洗い出します。",
+      "en": "We'll surface risks in the architecture review.",
+      "hint": "surface risks"
+    },
+    {
+      "id": "enterprise-42",
+      "level": "enterprise",
+      "category": "Migration",
+      "jp": "データ移行の検証計画を策定します。",
+      "en": "We'll define the data migration validation plan.",
+      "hint": "validation plan"
+    },
+    {
+      "id": "enterprise-43",
+      "level": "enterprise",
+      "category": "Reliability",
+      "jp": "サービス停止時間を最小化する設計が必要です。",
+      "en": "We need a design that minimizes downtime.",
+      "hint": "minimizes downtime"
+    },
+    {
+      "id": "enterprise-44",
+      "level": "enterprise",
+      "category": "Security compliance",
+      "jp": "セキュリティレビューの結果を反映します。",
+      "en": "We'll incorporate the security review findings.",
+      "hint": "incorporate findings"
+    },
+    {
+      "id": "enterprise-45",
+      "level": "enterprise",
+      "category": "Observability",
+      "jp": "本番環境のログをサンプル調査します。",
+      "en": "We'll sample production logs for analysis.",
+      "hint": "sample production logs"
+    },
+    {
+      "id": "enterprise-46",
+      "level": "enterprise",
+      "category": "Compliance",
+      "jp": "データの所在を明確にしておきます。",
+      "en": "We'll clarify data residency.",
+      "hint": "data residency"
+    },
+    {
+      "id": "enterprise-47",
+      "level": "enterprise",
+      "category": "Reliability",
+      "jp": "APIのエラーレートを監視します。",
+      "en": "We'll monitor the API error rate.",
+      "hint": "error rate"
+    },
+    {
+      "id": "enterprise-48",
+      "level": "enterprise",
+      "category": "Vendor management",
+      "jp": "クラウドプロバイダーの障害対応手順を確認します。",
+      "en": "We'll review the cloud provider's incident procedures.",
+      "hint": "incident procedures"
+    },
+    {
+      "id": "enterprise-49",
+      "level": "enterprise",
+      "category": "Security compliance",
+      "jp": "アクセスログの監査手順を整備します。",
+      "en": "We'll formalize the access log audit process.",
+      "hint": "audit process"
+    },
+    {
+      "id": "enterprise-50",
+      "level": "enterprise",
+      "category": "Security",
+      "jp": "データ暗号化の方式を統一します。",
+      "en": "We'll standardize the data encryption approach.",
+      "hint": "encryption approach"
+    },
+    {
+      "id": "enterprise-51",
+      "level": "enterprise",
+      "category": "Infrastructure planning",
+      "jp": "新基盤のキャパシティ計画を見直します。",
+      "en": "We'll revisit capacity planning for the new platform.",
+      "hint": "capacity planning"
+    },
+    {
+      "id": "enterprise-52",
+      "level": "enterprise",
+      "category": "Decision making",
+      "jp": "影響評価の結果をもとに対応を決めます。",
+      "en": "We'll decide based on the impact assessment results.",
+      "hint": "impact assessment"
+    },
+    {
+      "id": "enterprise-53",
+      "level": "enterprise",
+      "category": "FinOps",
+      "jp": "クラウド費用の予測精度を上げます。",
+      "en": "We'll improve cloud cost forecasting accuracy.",
+      "hint": "cost forecasting"
+    },
+    {
+      "id": "enterprise-54",
+      "level": "enterprise",
+      "category": "Hybrid architecture",
+      "jp": "オンプレからクラウドへの接続方式を確定します。",
+      "en": "We'll finalize the connectivity model from on-prem to cloud.",
+      "hint": "connectivity model"
+    },
+    {
+      "id": "enterprise-55",
+      "level": "enterprise",
+      "category": "Observability",
+      "jp": "監視アラートのノイズを減らします。",
+      "en": "We'll reduce alert noise in monitoring.",
+      "hint": "alert noise"
+    },
+    {
+      "id": "enterprise-56",
+      "level": "enterprise",
+      "category": "Security governance",
+      "jp": "アクセス権限の棚卸しを実施します。",
+      "en": "We'll perform an access rights review.",
+      "hint": "access rights review"
+    },
+    {
+      "id": "enterprise-57",
+      "level": "enterprise",
+      "category": "Incident response",
+      "jp": "障害時のコミュニケーション手順を整理します。",
+      "en": "We'll refine the incident communication flow.",
+      "hint": "incident communication"
+    },
+    {
+      "id": "enterprise-58",
+      "level": "enterprise",
+      "category": "Data governance",
+      "jp": "データレイクの権限設計を見直します。",
+      "en": "We'll revisit access design for the data lake.",
+      "hint": "access design"
+    },
+    {
+      "id": "enterprise-59",
+      "level": "enterprise",
+      "category": "Security architecture",
+      "jp": "APIの認証方式を統一します。",
+      "en": "We'll standardize API authentication.",
+      "hint": "API authentication"
+    },
+    {
+      "id": "enterprise-60",
+      "level": "enterprise",
+      "category": "Executive reporting",
+      "jp": "障害の一次報告を経営層に上げます。",
+      "en": "We'll provide an initial incident report to leadership.",
+      "hint": "initial incident report"
+    },
+    {
+      "id": "enterprise-61",
+      "level": "enterprise",
+      "category": "Compliance",
+      "jp": "新しい監査要件に合わせてプロセスを更新します。",
+      "en": "We'll update the process to meet new audit requirements.",
+      "hint": "audit requirements"
+    },
+    {
+      "id": "enterprise-62",
+      "level": "enterprise",
+      "category": "Migration",
+      "jp": "クラウド移行の依存関係を洗い出します。",
+      "en": "We'll map dependencies for the cloud migration.",
+      "hint": "map dependencies"
+    },
+    {
+      "id": "enterprise-63",
+      "level": "enterprise",
+      "category": "Incident management",
+      "jp": "重大インシデントのエスカレーション基準を決めます。",
+      "en": "We'll define escalation criteria for major incidents.",
+      "hint": "escalation criteria"
+    },
+    {
+      "id": "enterprise-64",
+      "level": "enterprise",
+      "category": "Release management",
+      "jp": "リリース後の影響監視計画を作成します。",
+      "en": "We'll create a post-release impact monitoring plan.",
+      "hint": "post-release monitoring"
+    },
+    {
+      "id": "enterprise-65",
+      "level": "enterprise",
+      "category": "Data governance",
+      "jp": "データ品質のKPIを設定します。",
+      "en": "We'll define KPIs for data quality.",
+      "hint": "data quality KPIs"
+    },
+    {
+      "id": "enterprise-66",
+      "level": "enterprise",
+      "category": "Governance",
+      "jp": "インフラ変更の承認フローを再設計します。",
+      "en": "We'll redesign the approval flow for infrastructure changes.",
+      "hint": "approval flow"
+    },
+    {
+      "id": "enterprise-67",
+      "level": "enterprise",
+      "category": "API management",
+      "jp": "APIのバージョン管理方針を定めます。",
+      "en": "We'll define the API versioning policy.",
+      "hint": "versioning policy"
+    },
+    {
+      "id": "enterprise-68",
+      "level": "enterprise",
+      "category": "Compliance",
+      "jp": "クラウドサービスの利用規約を確認します。",
+      "en": "We'll review the cloud service terms of use.",
+      "hint": "terms of use"
+    },
+    {
+      "id": "enterprise-69",
+      "level": "enterprise",
+      "category": "Security testing",
+      "jp": "デプロイ前にセキュリティテストを実施します。",
+      "en": "We'll run security tests before deployment.",
+      "hint": "before deployment"
+    },
+    {
+      "id": "enterprise-70",
+      "level": "enterprise",
+      "category": "Incident response",
+      "jp": "障害復旧の手順書を更新します。",
+      "en": "We'll update the incident recovery runbook.",
+      "hint": "runbook"
+    },
+    {
+      "id": "enterprise-71",
+      "level": "enterprise",
+      "category": "Vendor management",
+      "jp": "データ共有の契約条件を確認します。",
+      "en": "We'll confirm contractual terms for data sharing.",
+      "hint": "data sharing terms"
+    },
+    {
+      "id": "enterprise-72",
+      "level": "enterprise",
+      "category": "Executive communication",
+      "jp": "本番障害の原因を経営層に説明します。",
+      "en": "We'll explain the incident cause to leadership.",
+      "hint": "incident cause"
+    },
+    {
+      "id": "enterprise-73",
+      "level": "enterprise",
+      "category": "Reliability",
+      "jp": "認証基盤の可用性を評価します。",
+      "en": "We'll assess availability of the identity platform.",
+      "hint": "assess availability"
+    },
+    {
+      "id": "enterprise-74",
+      "level": "enterprise",
+      "category": "Compliance",
+      "jp": "外部監査に備えてエビデンスを整備します。",
+      "en": "We'll prepare evidence for the external audit.",
+      "hint": "prepare evidence"
+    },
+    {
+      "id": "enterprise-75",
+      "level": "enterprise",
+      "category": "Migration",
+      "jp": "データ移行時の整合性チェックを強化します。",
+      "en": "We'll strengthen integrity checks during data migration.",
+      "hint": "integrity checks"
+    },
+    {
+      "id": "enterprise-76",
+      "level": "enterprise",
+      "category": "Incident management",
+      "jp": "重大インシデント時の報告基準を明文化します。",
+      "en": "We'll codify reporting thresholds for major incidents.",
+      "hint": "reporting thresholds"
+    },
+    {
+      "id": "enterprise-77",
+      "level": "enterprise",
+      "category": "Change management",
+      "jp": "クラウド構成変更の影響を評価します。",
+      "en": "We'll assess the impact of cloud configuration changes.",
+      "hint": "configuration changes"
+    },
+    {
+      "id": "enterprise-78",
+      "level": "enterprise",
+      "category": "Security compliance",
+      "jp": "データアクセスの監査ログを確認します。",
+      "en": "We'll review audit logs for data access.",
+      "hint": "audit logs"
+    },
+    {
+      "id": "enterprise-79",
+      "level": "enterprise",
+      "category": "Security governance",
+      "jp": "セキュリティ例外の期限を厳密に管理します。",
+      "en": "We'll strictly track expiration for security exceptions.",
+      "hint": "security exceptions"
+    },
+    {
+      "id": "enterprise-80",
+      "level": "enterprise",
+      "category": "API management",
+      "jp": "APIスロットリングの影響を評価します。",
+      "en": "We'll evaluate the impact of API throttling.",
+      "hint": "API throttling"
+    },
+    {
+      "id": "enterprise-81",
+      "level": "enterprise",
+      "category": "Security architecture",
+      "jp": "ゼロトラスト方針に合わせて設計を見直します。",
+      "en": "We'll revise the design to align with zero-trust policy.",
+      "hint": "zero-trust policy"
+    },
+    {
+      "id": "enterprise-82",
+      "level": "enterprise",
+      "category": "Executive strategy",
+      "jp": "クラウド移行の意思決定を経営層に提案します。",
+      "en": "We'll propose the cloud migration decision to leadership.",
+      "hint": "propose the decision"
+    },
+    {
+      "id": "enterprise-83",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "要件凍結を急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the requirements freeze, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-84",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "要件凍結を急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the requirements freeze, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-85",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "要件凍結を急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the requirements freeze, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-86",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "要件凍結を急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the requirements freeze, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-87",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "要件凍結を急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the requirements freeze, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-88",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "UAT承認を急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the UAT sign-off, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-89",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "UAT承認を急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the UAT sign-off, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-90",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "UAT承認を急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the UAT sign-off, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-91",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "UAT承認を急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the UAT sign-off, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-92",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "UAT承認を急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the UAT sign-off, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-93",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "切替準備を急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the cutover readiness, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-94",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "切替準備を急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the cutover readiness, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-95",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "切替準備を急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the cutover readiness, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-96",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "切替準備を急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the cutover readiness, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-97",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "切替準備を急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the cutover readiness, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-98",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "変更ウィンドウ承認を急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the change window approval, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-99",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "変更ウィンドウ承認を急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the change window approval, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-100",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "変更ウィンドウ承認を急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the change window approval, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-101",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "変更ウィンドウ承認を急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the change window approval, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-102",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "変更ウィンドウ承認を急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the change window approval, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-103",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "デプロイ後検証を急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the post-deploy validation, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-104",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "デプロイ後検証を急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the post-deploy validation, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-105",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "デプロイ後検証を急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the post-deploy validation, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-106",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "デプロイ後検証を急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the post-deploy validation, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-107",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "デプロイ後検証を急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the post-deploy validation, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-108",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "障害対応を急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the incident response, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-109",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "障害対応を急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the incident response, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-110",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "障害対応を急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the incident response, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-111",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "障害対応を急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the incident response, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-112",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "障害対応を急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the incident response, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-113",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "ロールバック判断を急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the rollback decision, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-114",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "ロールバック判断を急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the rollback decision, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-115",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "ロールバック判断を急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the rollback decision, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-116",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "ロールバック判断を急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the rollback decision, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-117",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "ロールバック判断を急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the rollback decision, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-118",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "リリースガバナンスを急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the release governance, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-119",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "リリースガバナンスを急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the release governance, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-120",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "リリースガバナンスを急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the release governance, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-121",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "リリースガバナンスを急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the release governance, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-122",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "リリースガバナンスを急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the release governance, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-123",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "環境差異の解消を急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the environment parity, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-124",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "環境差異の解消を急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the environment parity, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-125",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "環境差異の解消を急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the environment parity, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-126",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "環境差異の解消を急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the environment parity, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-127",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "環境差異の解消を急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the environment parity, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-128",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "統合テストを急ぐと変更ウィンドウを逸する可能性があります。",
+      "en": "If we rush the integration testing, we could miss the change window.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-129",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "統合テストを急ぐと下流システムへ影響が出る可能性があります。",
+      "en": "If we rush the integration testing, we could impact downstream systems.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-130",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "統合テストを急ぐとSLA違反を誘発する可能性があります。",
+      "en": "If we rush the integration testing, we could trigger an SLA breach.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-131",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "統合テストを急ぐとデータ不整合を招く可能性があります。",
+      "en": "If we rush the integration testing, we could introduce data inconsistency.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-132",
+      "level": "enterprise",
+      "category": "Project delivery",
+      "jp": "統合テストを急ぐと運用負荷が増える可能性があります。",
+      "en": "If we rush the integration testing, we could increase operational load.",
+      "hint": "could"
+    },
+    {
+      "id": "enterprise-133",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に商務条件について例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the commercial terms before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-134",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に商務条件について境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the commercial terms before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-135",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に商務条件について再交渉すべきです。",
+      "en": "We should renegotiate on the commercial terms before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-136",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に商務条件について書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the commercial terms before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-137",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に商務条件について前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the commercial terms before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-138",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に変更見積の価格について例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the change order pricing before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-139",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に変更見積の価格について境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the change order pricing before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-140",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に変更見積の価格について再交渉すべきです。",
+      "en": "We should renegotiate on the change order pricing before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-141",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に変更見積の価格について書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the change order pricing before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-142",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に変更見積の価格について前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the change order pricing before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-143",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にSLAペナルティについて例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the SLA penalties before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-144",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にSLAペナルティについて境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the SLA penalties before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-145",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にSLAペナルティについて再交渉すべきです。",
+      "en": "We should renegotiate on the SLA penalties before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-146",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にSLAペナルティについて書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the SLA penalties before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-147",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にSLAペナルティについて前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the SLA penalties before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-148",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にデータ所在条項について例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the data residency clauses before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-149",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にデータ所在条項について境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the data residency clauses before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-150",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にデータ所在条項について再交渉すべきです。",
+      "en": "We should renegotiate on the data residency clauses before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-151",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にデータ所在条項について書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the data residency clauses before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-152",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にデータ所在条項について前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the data residency clauses before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-153",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に更新オプションについて例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the renewal options before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-154",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に更新オプションについて境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the renewal options before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-155",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に更新オプションについて再交渉すべきです。",
+      "en": "We should renegotiate on the renewal options before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-156",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に更新オプションについて書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the renewal options before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-157",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に更新オプションについて前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the renewal options before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-158",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に実装スコープについて例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the implementation scope before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-159",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に実装スコープについて境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the implementation scope before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-160",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に実装スコープについて再交渉すべきです。",
+      "en": "We should renegotiate on the implementation scope before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-161",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に実装スコープについて書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the implementation scope before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-162",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に実装スコープについて前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the implementation scope before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-163",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にサポート範囲について例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the support coverage before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-164",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にサポート範囲について境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the support coverage before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-165",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にサポート範囲について再交渉すべきです。",
+      "en": "We should renegotiate on the support coverage before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-166",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にサポート範囲について書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the support coverage before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-167",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前にサポート範囲について前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the support coverage before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-168",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に解約条件について例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the exit conditions before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-169",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に解約条件について境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the exit conditions before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-170",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に解約条件について再交渉すべきです。",
+      "en": "We should renegotiate on the exit conditions before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-171",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に解約条件について書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the exit conditions before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-172",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に解約条件について前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the exit conditions before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-173",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に知的財産の帰属について例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the IP ownership before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-174",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に知的財産の帰属について境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the IP ownership before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-175",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に知的財産の帰属について再交渉すべきです。",
+      "en": "We should renegotiate on the IP ownership before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-176",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に知的財産の帰属について書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the IP ownership before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-177",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に知的財産の帰属について前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the IP ownership before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-178",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に監査権について例外扱いの可否を確認すべきです。",
+      "en": "We should seek an exception on the audit rights before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-179",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に監査権について境界を明確化すべきです。",
+      "en": "We should clarify the boundaries on the audit rights before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-180",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に監査権について再交渉すべきです。",
+      "en": "We should renegotiate on the audit rights before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-181",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に監査権について書面で承認を取得すべきです。",
+      "en": "We should secure written approval on the audit rights before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-182",
+      "level": "enterprise",
+      "category": "Negotiation & contracts",
+      "jp": "契約締結前に監査権について前提条件を文書化すべきです。",
+      "en": "We should document the assumptions on the audit rights before we sign.",
+      "hint": "before we sign"
+    },
+    {
+      "id": "enterprise-183",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "モデルドリフトについては拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For model drift, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-184",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "モデルドリフトについては拡大する前にガードレールを定義する必要があります。",
+      "en": "For model drift, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-185",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "モデルドリフトについては拡大する前にオーナーを確定する必要があります。",
+      "en": "For model drift, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-186",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "モデルドリフトについては拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For model drift, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-187",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "モデルドリフトについては拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For model drift, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-188",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "データリネージについては拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For data lineage, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-189",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "データリネージについては拡大する前にガードレールを定義する必要があります。",
+      "en": "For data lineage, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-190",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "データリネージについては拡大する前にオーナーを確定する必要があります。",
+      "en": "For data lineage, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-191",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "データリネージについては拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For data lineage, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-192",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "データリネージについては拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For data lineage, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-193",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "クラウド移行については拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For cloud migration, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-194",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "クラウド移行については拡大する前にガードレールを定義する必要があります。",
+      "en": "For cloud migration, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-195",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "クラウド移行については拡大する前にオーナーを確定する必要があります。",
+      "en": "For cloud migration, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-196",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "クラウド移行については拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For cloud migration, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-197",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "クラウド移行については拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For cloud migration, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-198",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "SRE体制については拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For SRE coverage, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-199",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "SRE体制については拡大する前にガードレールを定義する必要があります。",
+      "en": "For SRE coverage, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-200",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "SRE体制については拡大する前にオーナーを確定する必要があります。",
+      "en": "For SRE coverage, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-201",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "SRE体制については拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For SRE coverage, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-202",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "SRE体制については拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For SRE coverage, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-203",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "ゼロトラスト導入については拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For zero-trust rollout, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-204",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "ゼロトラスト導入については拡大する前にガードレールを定義する必要があります。",
+      "en": "For zero-trust rollout, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-205",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "ゼロトラスト導入については拡大する前にオーナーを確定する必要があります。",
+      "en": "For zero-trust rollout, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-206",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "ゼロトラスト導入については拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For zero-trust rollout, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-207",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "ゼロトラスト導入については拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For zero-trust rollout, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-208",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "APIレート制限については拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For API rate limits, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-209",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "APIレート制限については拡大する前にガードレールを定義する必要があります。",
+      "en": "For API rate limits, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-210",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "APIレート制限については拡大する前にオーナーを確定する必要があります。",
+      "en": "For API rate limits, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-211",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "APIレート制限については拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For API rate limits, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-212",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "APIレート制限については拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For API rate limits, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-213",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "可観測性のギャップについては拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For observability gaps, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-214",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "可観測性のギャップについては拡大する前にガードレールを定義する必要があります。",
+      "en": "For observability gaps, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-215",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "可観測性のギャップについては拡大する前にオーナーを確定する必要があります。",
+      "en": "For observability gaps, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-216",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "可観測性のギャップについては拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For observability gaps, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-217",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "可観測性のギャップについては拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For observability gaps, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-218",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "コスト異常については拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For cost anomalies, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-219",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "コスト異常については拡大する前にガードレールを定義する必要があります。",
+      "en": "For cost anomalies, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-220",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "コスト異常については拡大する前にオーナーを確定する必要があります。",
+      "en": "For cost anomalies, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-221",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "コスト異常については拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For cost anomalies, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-222",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "コスト異常については拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For cost anomalies, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-223",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "マルチリージョンフェイルオーバーについては拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For multi-region failover, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-224",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "マルチリージョンフェイルオーバーについては拡大する前にガードレールを定義する必要があります。",
+      "en": "For multi-region failover, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-225",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "マルチリージョンフェイルオーバーについては拡大する前にオーナーを確定する必要があります。",
+      "en": "For multi-region failover, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-226",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "マルチリージョンフェイルオーバーについては拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For multi-region failover, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-227",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "マルチリージョンフェイルオーバーについては拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For multi-region failover, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-228",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "セキュリティ態勢については拡大する前に明確なSLIを設定する必要があります。",
+      "en": "For security posture, we need to set clear SLIs before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-229",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "セキュリティ態勢については拡大する前にガードレールを定義する必要があります。",
+      "en": "For security posture, we need to define guardrails before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-230",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "セキュリティ態勢については拡大する前にオーナーを確定する必要があります。",
+      "en": "For security posture, we need to establish ownership before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-231",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "セキュリティ態勢については拡大する前に準備状況レビューを実施する必要があります。",
+      "en": "For security posture, we need to run a readiness review before scaling.",
+      "hint": "before scaling"
+    },
+    {
+      "id": "enterprise-232",
+      "level": "enterprise",
+      "category": "Data/AI/Cloud/Platform",
+      "jp": "セキュリティ態勢については拡大する前にロールバック計画を提示する必要があります。",
+      "en": "For security posture, we need to publish a rollback plan before scaling.",
+      "hint": "before scaling"
+    }
+  ]
+}
