@@ -14,28 +14,42 @@ const storage = {
   },
 };
 
+const CATEGORY_OPTIONS = [
+  "Executive Communication",
+  "Stakeholder Alignment",
+  "Consulting & Problem Solving",
+  "IT Architecture & Systems",
+  "Cloud & Platform",
+  "Delivery & Operations",
+  "Risk & Change Management",
+  "Project & Execution",
+  "Negotiation & Contract",
+  "Casual but Professional",
+];
+
+const LEVEL_OPTIONS = ["3", "4", "5"];
+
 const dataStore = {
   cards: [],
   dataSets: {
-    daily: [],
-    business: [],
-    enterprise: [],
+    3: [],
+    4: [],
+    5: [],
   },
-  categories: [],
+  categories: CATEGORY_OPTIONS,
 };
 
 const buildDataSets = (cards) => {
-  const sets = { daily: [], business: [], enterprise: [] };
-  const categories = new Set();
+  const sets = { 3: [], 4: [], 5: [] };
   cards.forEach((card) => {
-    if (sets[card.level]) {
-      sets[card.level].push(card);
-      categories.add(card.category);
+    const levelKey = String(card.level);
+    if (sets[levelKey] && CATEGORY_OPTIONS.includes(card.category)) {
+      sets[levelKey].push(card);
     }
   });
   dataStore.cards = cards;
   dataStore.dataSets = sets;
-  dataStore.categories = Array.from(categories).sort();
+  dataStore.categories = CATEGORY_OPTIONS;
 };
 
 const loadVocab = async () => {
@@ -56,16 +70,16 @@ const loadVocab = async () => {
 const getFilteredCards = (level, category) => {
   // Previously, level/category filters were applied inconsistently between Flashcards and Quiz.
   // Centralizing the filter here ensures both flows always respect the same settings.
-  const cards = dataStore.dataSets[level] || [];
+  const cards = dataStore.dataSets[String(level)] || [];
   if (!category || category === 'all') return cards;
   return cards.filter((card) => card.category === category);
 };
 const defaultProgress = {
   totals: { total: 0, correct: 0, streak: 0 },
   levels: {
-    daily: { total: 0, correct: 0 },
-    business: { total: 0, correct: 0 },
-    enterprise: { total: 0, correct: 0 },
+    3: { total: 0, correct: 0 },
+    4: { total: 0, correct: 0 },
+    5: { total: 0, correct: 0 },
   },
   cards: {},
 };
@@ -77,7 +91,7 @@ const settingsDefaults = {
   ttsRate: "1",
   ttsLang: "en-US",
   ttsVoice: "auto",
-  level: "daily",
+  level: "3",
   category: "all",
 };
 
@@ -88,7 +102,7 @@ const settings = storage.get("lexicore_settings", settingsDefaults);
 let favorites = new Set(storage.get("lexicore_favorites", favoritesDefault));
 
 const state = {
-  level: "daily",
+  level: "3",
   currentCard: null,
   quiz: {
     timer: null,
@@ -96,7 +110,10 @@ const state = {
     running: false,
     total: 0,
     correct: 0,
-    level: "daily",
+    level: "3",
+    type: "timed",
+    questionsLimit: 10,
+    startedAt: null,
   },
 };
 
@@ -122,6 +139,7 @@ const elements = {
   flashTotal: document.getElementById("flash-total"),
   flashCorrect: document.getElementById("flash-correct"),
   flashStreak: document.getElementById("flash-streak"),
+  quizType: document.getElementById("quiz-type"),
   quizLevel: document.getElementById("quiz-level"),
   startQuiz: document.getElementById("start-quiz"),
   quizArea: document.getElementById("quiz-area"),
@@ -129,9 +147,14 @@ const elements = {
   quizOptions: document.getElementById("quiz-options"),
   quizTts: document.getElementById("quiz-tts"),
   quizTimer: document.getElementById("quiz-timer"),
+  quizTimerLabel: document.getElementById("quiz-timer-label"),
   quizTotal: document.getElementById("quiz-total"),
   quizCorrect: document.getElementById("quiz-correct"),
   quizResult: document.getElementById("quiz-result"),
+  quizHistoryList: document.getElementById("quiz-history-list"),
+  quizHistoryEmpty: document.getElementById("quiz-history-empty"),
+  quizHistoryPrev: document.getElementById("quiz-history-prev"),
+  quizHistoryNext: document.getElementById("quiz-history-next"),
   resultTotal: document.getElementById("result-total"),
   resultCorrect: document.getElementById("result-correct"),
   resultAccuracy: document.getElementById("result-accuracy"),
@@ -164,6 +187,10 @@ const ttsState = {
   voices: [],
   activeButton: null,
 };
+
+const historyDefault = [];
+const quizHistory = storage.get("lexicore_quiz_history", historyDefault);
+let historyPage = 0;
 
 const updateGreeting = () => {
   const name = settings.name?.trim();
@@ -292,7 +319,7 @@ const updateCategoryOptions = () => {
   allOption.value = "all";
   allOption.textContent = "All categories";
   elements.categoryFilter.appendChild(allOption);
-  dataStore.categories.forEach((category) => {
+  CATEGORY_OPTIONS.forEach((category) => {
     const option = document.createElement("option");
     option.value = category;
     option.textContent = category;
@@ -305,7 +332,7 @@ const updateSettingsForm = () => {
   elements.userName.value = settings.name || "";
   elements.focusArea.value = settings.focus || "balanced";
   elements.reminderOpt.checked = Boolean(settings.reminder);
-  elements.defaultLevel.value = settings.level || "daily";
+  elements.defaultLevel.value = settings.level || "3";
   elements.ttsRate.value = settings.ttsRate || "1";
   elements.ttsLang.value = settings.ttsLang || "en-US";
   updateVoiceSelect();
@@ -316,6 +343,7 @@ const updateSettingsForm = () => {
 const saveProgress = () => storage.set("lexicore_progress", progress);
 const saveSettings = () => storage.set("lexicore_settings", settings);
 const saveFavorites = () => storage.set("lexicore_favorites", Array.from(favorites));
+const saveQuizHistory = () => storage.set("lexicore_quiz_history", quizHistory);
 
 const getAllCards = () => dataStore.cards;
 
@@ -362,13 +390,14 @@ const renderFavoritesList = () => {
       }
     });
 
+    const tagsLabel = Array.isArray(card.tags) ? card.tags.join(", ") : "";
     item.innerHTML = `
       <div class="favorites__meta">
         <span class="tag">${card.category}</span>
-        <span class="favorites__context">${card.hint}</span>
+        <span class="favorites__context">${tagsLabel}</span>
       </div>
       <p class="favorites__english">${card.en}</p>
-      <p class="favorites__jp">${card.jp}</p>
+      <p class="favorites__jp">${card.ja}</p>
     `;
     const actions = document.createElement("div");
     actions.className = "favorites__actions";
@@ -397,12 +426,7 @@ const updateProgressUI = () => {
 
   elements.levelProgress.innerHTML = "";
   Object.entries(progress.levels).forEach(([level, stats]) => {
-    const levelName =
-      level === "daily"
-        ? "Level 1: Daily"
-        : level === "business"
-          ? "Level 2: Business"
-          : "Level 3: Enterprise & IT";
+    const levelName = `Level ${level}`;
     const levelAccuracy = stats.total
       ? Math.round((stats.correct / stats.total) * 100)
       : 0;
@@ -463,16 +487,11 @@ const renderCard = (card) => {
     return;
   }
   state.currentCard = card;
-  elements.cardLevel.textContent =
-    state.level === "daily"
-      ? "Level 1: Daily"
-      : state.level === "business"
-        ? "Level 2: Business"
-        : "Level 3: Enterprise & IT";
+  elements.cardLevel.textContent = `Level ${state.level}`;
   elements.cardContext.textContent = card.category;
-  elements.cardJp.textContent = card.jp;
+  elements.cardJp.textContent = card.ja;
   elements.cardEn.textContent = card.en;
-  elements.cardHint.textContent = card.hint;
+  elements.cardHint.textContent = Array.isArray(card.tags) ? card.tags.join(", ") : "";
   elements.cardAnswer.classList.add("hidden");
   elements.cardAnswer.setAttribute("aria-hidden", "true");
   elements.revealButton.disabled = false;
@@ -559,7 +578,7 @@ const renderQuizQuestion = () => {
     elements.quizTts.disabled = true;
     return;
   }
-  elements.quizQuestion.textContent = question.jp;
+  elements.quizQuestion.textContent = question.ja;
   elements.quizOptions.innerHTML = "";
   elements.quizTts.disabled = !ttsState.supported;
   options.forEach((option) => {
@@ -578,6 +597,49 @@ const updateQuizStats = () => {
   elements.quizCorrect.textContent = state.quiz.correct;
 };
 
+const updateQuizTimerLabel = () => {
+  if (!elements.quizTimerLabel) return;
+  elements.quizTimerLabel.textContent =
+    state.quiz.type === "ten" ? "Questions left" : "Time";
+};
+
+const formatHistoryItem = (item) => {
+  const date = new Date(item.timestamp).toLocaleString();
+  return `${date} · ${item.type} · ${item.correct}/${item.total} (${item.accuracy}%) · ${item.duration}s`;
+};
+
+const renderQuizHistory = () => {
+  const start = historyPage * 10;
+  const slice = quizHistory.slice(start, start + 10);
+  elements.quizHistoryList.innerHTML = "";
+  elements.quizHistoryEmpty.style.display = slice.length ? "none" : "block";
+  slice.forEach((item) => {
+    const li = document.createElement("li");
+    li.textContent = formatHistoryItem(item);
+    elements.quizHistoryList.appendChild(li);
+  });
+  elements.quizHistoryPrev.disabled = start <= 0;
+  elements.quizHistoryNext.disabled = start + 10 >= quizHistory.length;
+};
+
+const recordQuizHistory = (durationSeconds) => {
+  const accuracy = state.quiz.total
+    ? Math.round((state.quiz.correct / state.quiz.total) * 100)
+    : 0;
+  const entry = {
+    timestamp: new Date().toISOString(),
+    type: state.quiz.type === "timed" ? "60s" : "10Q",
+    correct: state.quiz.correct,
+    total: state.quiz.total,
+    accuracy,
+    duration: durationSeconds,
+  };
+  quizHistory.unshift(entry);
+  if (quizHistory.length > 30) quizHistory.pop();
+  saveQuizHistory();
+  renderQuizHistory();
+};
+
 const stopQuiz = () => {
   clearInterval(state.quiz.timer);
   state.quiz.running = false;
@@ -589,6 +651,8 @@ const stopQuiz = () => {
   elements.resultTotal.textContent = state.quiz.total;
   elements.resultCorrect.textContent = state.quiz.correct;
   elements.resultAccuracy.textContent = `${accuracy}%`;
+  const durationSeconds = Math.round((Date.now() - state.quiz.startedAt) / 1000);
+  recordQuizHistory(durationSeconds);
 };
 
 const handleQuizAnswer = (answer) => {
@@ -607,28 +671,41 @@ const handleQuizAnswer = (answer) => {
   }
   saveProgress();
   updateProgressUI();
+  if (state.quiz.type === "ten") {
+    state.quiz.timeLeft = Math.max(0, state.quiz.questionsLimit - state.quiz.total);
+  }
   updateQuizStats();
+  if (state.quiz.type === "ten" && state.quiz.total >= state.quiz.questionsLimit) {
+    stopQuiz();
+    return;
+  }
   renderQuizQuestion();
 };
 
 const startQuiz = () => {
   stopSpeech();
   state.quiz.level = elements.quizLevel.value;
+  state.quiz.type = elements.quizType.value;
   state.quiz.running = true;
-  state.quiz.timeLeft = 60;
+  state.quiz.timeLeft =
+    state.quiz.type === "timed" ? 60 : state.quiz.questionsLimit;
   state.quiz.total = 0;
   state.quiz.correct = 0;
+  state.quiz.startedAt = Date.now();
   elements.quizResult.classList.add("hidden");
+  updateQuizTimerLabel();
   updateQuizStats();
   renderQuizQuestion();
   clearInterval(state.quiz.timer);
-  state.quiz.timer = setInterval(() => {
-    state.quiz.timeLeft -= 1;
-    updateQuizStats();
-    if (state.quiz.timeLeft <= 0) {
-      stopQuiz();
-    }
-  }, 1000);
+  if (state.quiz.type === "timed") {
+    state.quiz.timer = setInterval(() => {
+      state.quiz.timeLeft -= 1;
+      updateQuizStats();
+      if (state.quiz.timeLeft <= 0) {
+        stopQuiz();
+      }
+    }, 1000);
+  }
 };
 
 const restartQuiz = () => {
@@ -686,6 +763,7 @@ const init = async () => {
   setupNavigation();
   setLevel(settings.level || state.level);
   renderFavoritesList();
+  renderQuizHistory();
   elements.revealButton.addEventListener("click", revealAnswer);
   elements.flashcardTts.addEventListener("click", () => {
     speakText(elements.cardEn.textContent, elements.flashcardTts);
@@ -704,6 +782,15 @@ const init = async () => {
     if (level) setLevel(level);
   });
   elements.startQuiz.addEventListener("click", startQuiz);
+  elements.quizHistoryPrev.addEventListener("click", () => {
+    historyPage = Math.max(0, historyPage - 1);
+    renderQuizHistory();
+  });
+  elements.quizHistoryNext.addEventListener("click", () => {
+    const maxPage = Math.floor((quizHistory.length - 1) / 10);
+    historyPage = Math.min(maxPage, historyPage + 1);
+    renderQuizHistory();
+  });
   elements.quizTts.addEventListener("click", () => {
     speakText(state.quiz.currentQuestion?.en, elements.quizTts);
   });
